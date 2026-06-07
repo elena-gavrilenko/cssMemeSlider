@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>CssMemeSlider</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__title poppins-black-italic">Memes</h1>
+      </header>
+      <main class="main">
+        <input
+          class="radio__group-item-one"
+          type="radio"
+          name="picture"
+          id="one"
+          checked
+        />
+        <input
+          class="radio__group-item-two"
+          type="radio"
+          name="picture"
+          id="two"
+        />
+        <input
+          class="radio__group-item-three"
+          type="radio"
+          name="picture"
+          id="three"
+        />
+        <input
+          class="radio__group-item-four"
+          type="radio"
+          name="picture"
+          id="four"
+        />
+        <input
+          class="radio__group-item-five"
+          type="radio"
+          name="picture"
+          id="five"
+        />
+
+        <div class="images">
+          <img
+            class="images__meme images__meme-one"
+            src="./images/slide1.jpg"
+            alt="meme"
+          />
+          <img
+            class="images__meme images__meme-two"
+            src="./images/slide2.jpg"
+            alt="meme"
+          />
+          <img
+            class="images__meme images__meme-three"
+            src="./images/slide3.jpg"
+            alt="meme"
+          />
+          <img
+            class="images__meme images__meme-four"
+            src="./images/slide4.jpg"
+            alt="meme"
+          />
+          <img
+            class="images__meme images__meme-five"
+            src="./images/slide5.jpg"
+            alt="meme"
+          />
+        </div>
+        <div class="footer">
+          <div class="footer__texts poppins-regular-italic">
+            <div class="footer__text footer__text-one">Комары в шоке</div>
+            <div class="footer__text footer__text-two">
+              Работа над ошибками — это тоже работа
+            </div>
+            <div class="footer__text footer__text-three">
+              Терапия отменяется, вид хороший
+            </div>
+            <div class="footer__text footer__text-four">И на том спасибо</div>
+            <div class="footer__text footer__text-five">
+              Инструкция по отключению депрессии
+            </div>
+          </div>
+
+          <div class="footer__labels">
+            <label for="one" class="footer__label">
+              <div class="footer__button footer__button-one"></div></label
+            ><label for="two" class="footer__label"
+              ><div class="footer__button footer__button-two"></div></label
+            ><label for="three" class="footer__label"
+              ><div class="footer__button footer__button-three"></div></label
+            ><label for="four" class="footer__label"
+              ><div class="footer__button footer__button-four"></div></label
+            ><label for="five" class="footer__label"
+              ><div class="footer__button footer__button-five"></div
+            ></label>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
